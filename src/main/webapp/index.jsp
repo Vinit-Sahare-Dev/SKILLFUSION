@@ -235,7 +235,7 @@
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">100</h1>
+                            <h1 class="me-3 text-primary counter-value">120</h1>
                             <h5 class="text-black mt-1">Total Skills</h5>
                         </div>
                     </div>
