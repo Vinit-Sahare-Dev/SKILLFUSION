@@ -1,0 +1,20 @@
+the project is configured now..
+Steps to run your project
+open eclipse ide from taskbar
+then right click on your project ->run as->java application
+one window will appear
+select your project name and click on ok
+
+the project will host on apache server
+
+now open browser and type url
+localhost:8080/home and press enter
+you will get your project home page
+
+
+MySQL db is configured on MySQL workbench
+to view db open MySQL workbench
+and click on the SkillFusionDB tile 
+
+defaultdb is your db 
+double click on defaultdb to select it and then you can fire any query on it
