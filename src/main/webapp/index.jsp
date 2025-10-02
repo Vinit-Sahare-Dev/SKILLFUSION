@@ -133,15 +133,7 @@
                             <a href="home" class="nav-item nav-link active text-secondary">Home</a>
                             <a href="#about" class="nav-item nav-link">About</a>
                              <a href="WPReg.jsp" class="nav-item nav-link">Register as Professional </a>
-                          <!--   <a href="project.html" class="nav-item nav-link">Projects</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Registration</a>
-                                <div class="dropdown-menu rounded">
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#studReg">Student Registration</button>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="AlumniReg.jsp">Alumnin Registration</button>
-                                      
-                                </div>
-                            </div>-->  
+                         
                             <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
                             <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#studReg">Registration</button>
                             
