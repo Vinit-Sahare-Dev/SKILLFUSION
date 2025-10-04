@@ -1,151 +1,82 @@
-2025-10-02 09:46:21.936 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 33484 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
-2025-10-02 09:46:21.936 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-02 09:46:22.233 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-2025-10-02 09:46:22.233 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-02 09:46:22.355 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+2025-10-04 19:42:03.242 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:42:03.254 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:42:04.717 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:42:04.718 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:42:04.996 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
 java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
-	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
-	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
-	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
-	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
-	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
-	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
-	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
-2025-10-02 09:46:22.358 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2025-10-02 09:46:22.365 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2025-10-02 09:46:22.486 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.61 seconds (process running for 1067.549)
-2025-10-02 09:47:39.893 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 33484 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
-2025-10-02 09:47:39.894 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-02 09:47:40.125 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-2025-10-02 09:47:40.125 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-02 09:47:40.234 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
-java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
-	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
-	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
-	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
-	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
-	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
-	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
-	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
-2025-10-02 09:47:40.237 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2025-10-02 09:47:40.242 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2025-10-02 09:47:40.351 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.496 seconds (process running for 1145.415)
-2025-10-02 09:49:42.946 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
-2025-10-02 09:49:42.946 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
-2025-10-02 09:49:42.946 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
-2025-10-02 09:49:42.978 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 33484 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
-2025-10-02 09:49:42.978 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-02 09:49:43.212 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-2025-10-02 09:49:43.212 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-02 09:49:43.322 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:42:05.007 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:42:05.019 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:42:05.582 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 2.918 seconds (process running for 3.738)
+2025-10-04 19:42:05.588 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:44:02.053 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:44:02.054 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:44:02.054 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
+2025-10-04 19:44:02.129 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:44:02.131 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:44:02.638 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:44:02.639 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:44:02.787 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
 java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
@@ -208,7 +139,731 @@ java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
-2025-10-02 09:49:43.325 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2025-10-02 09:49:43.331 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2025-10-02 09:49:43.432 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.481 seconds (process running for 1268.495)
-2025-10-02 09:49:43.433 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:44:02.792 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:44:02.805 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:44:03.010 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.944 seconds (process running for 121.165)
+2025-10-04 19:44:03.014 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:44:03.858 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 2992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:44:03.862 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:44:05.135 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:44:05.135 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:44:05.403 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:44:05.415 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:44:05.430 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:44:05.911 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-10-04 19:44:05.929 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-04 19:44:05.971 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-10-04 19:44:37.444 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:44:37.445 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:44:37.445 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
+2025-10-04 19:44:37.490 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:44:37.490 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:44:37.825 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:44:37.825 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:44:37.970 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+2025-10-04 19:44:37.975 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:44:37.980 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:44:38.133 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.683 seconds (process running for 156.288)
+2025-10-04 19:44:38.135 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:44:38.950 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 4828 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:44:38.952 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:44:40.302 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:44:40.302 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:44:40.572 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:44:40.585 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:44:40.596 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:44:41.064 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-10-04 19:44:41.081 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-04 19:44:41.130 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-10-04 19:44:56.077 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:44:56.077 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:44:56.077 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
+2025-10-04 19:44:56.110 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:44:56.110 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:44:56.446 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:44:56.446 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:44:56.559 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+2025-10-04 19:44:56.562 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:44:56.569 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:44:56.656 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.575 seconds (process running for 174.812)
+2025-10-04 19:44:56.659 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:45:16.997 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 1208 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:45:16.999 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:45:18.238 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:45:18.238 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:45:18.509 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:45:18.518 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:45:18.526 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:45:18.963 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-10-04 19:45:18.982 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-04 19:45:19.029 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2025-10-04 19:45:28.974 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:45:28.974 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:45:28.974 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
+2025-10-04 19:45:29.022 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:45:29.023 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:45:29.328 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:45:29.329 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:45:29.434 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+2025-10-04 19:45:29.438 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:45:29.442 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:45:29.543 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.563 seconds (process running for 207.698)
+2025-10-04 19:45:29.545 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:45:59.691 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 20924 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:45:59.693 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:46:00.941 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:46:00.942 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:46:01.209 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:46:01.220 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:46:01.230 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:46:01.687 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-10-04 19:46:01.705 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-04 19:46:01.746 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2025-10-04 19:46:21.391 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:46:21.392 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:46:21.392 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
+2025-10-04 19:46:21.421 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 22992 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:46:21.422 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:46:21.631 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:46:21.631 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:46:21.726 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197) ~[na:na]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[na:na]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[na:na]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[na:na]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[na:na]
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[na:na]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) ~[tomcat-jasper-10.1.0.jar:10.1.0]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+2025-10-04 19:46:21.731 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:46:21.735 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:46:21.810 [restartedMain] INFO  c.s.f.SkillFusionApplication - Started SkillFusionApplication in 0.415 seconds (process running for 259.966)
+2025-10-04 19:46:21.811 [restartedMain] INFO  c.s.f.SkillFusionApplication - SkillFusionApplication started successfully!
+2025-10-04 19:46:44.805 [restartedMain] INFO  c.s.f.SkillFusionApplication - Starting SkillFusionApplication using Java 21.0.3 with PID 9056 (C:\Skillfusion\SkillFusion\target\classes started by 91992 in C:\Skillfusion\SkillFusion)
+2025-10-04 19:46:44.807 [restartedMain] INFO  c.s.f.SkillFusionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-04 19:46:46.052 [restartedMain] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2025-10-04 19:46:46.052 [restartedMain] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-04 19:46:46.309 [restartedMain] WARN  o.a.t.u.s.StandardJarScanner - Failed to scan [file:/C:/Users/91992/.m2/repository/xalan/xalan/2.7.3/serializer.jar] from classloader hierarchy
+java.nio.file.NoSuchFileException: C:\Users\91992\.m2\repository\xalan\xalan\2.7.3\serializer.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:397)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:332)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:297)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:238)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.skill.fusion.SkillFusionApplication.main(SkillFusionApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-04 19:46:46.320 [restartedMain] INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-04 19:46:46.330 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2025-10-04 19:46:46.796 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-10-04 19:46:46.812 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-04 19:46:46.863 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2025-10-04 19:47:00.284 [restartedMain] INFO  c.s.f.SkillFusionApplication - Info level: SkillFusionApplication is starting.
+2025-10-04 19:47:00.284 [restartedMain] WARN  c.s.f.SkillFusionApplication - Warn level: Example of a warning message.
+2025-10-04 19:47:00.284 [restartedMain] ERROR c.s.f.SkillFusionApplication - Error level: Example of an error message.
