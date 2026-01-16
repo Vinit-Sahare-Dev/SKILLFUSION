@@ -60,6 +60,44 @@ A comprehensive freelance marketplace platform built with Java Spring Boot that 
 - MySQL 8.0 or higher
 - Apache Tomcat 10
 - Maven 3.8+
+<img width="3000" height="1518" alt="image" src="https://github.com/user-attachments/assets/0b89ccaa-ac0e-4a31-a8da-a9dd19ef5167" />
+<img width="2849" height="1405" alt="image" src="https://github.com/user-attachments/assets/9153770e-4884-4467-82b8-097c9b8255a0" />
+<img width="3000" height="1480" alt="image" src="https://github.com/user-attachments/assets/57010bcf-4ca2-4f3a-99d4-725ebcaca6dd" />
+<img width="2904" height="1518" alt="image" src="https://github.com/user-attachments/assets/e1542c49-68ad-4657-8a88-ca5c28131731" />
+<img width="2801" height="1501" alt="image" src="https://github.com/user-attachments/assets/1b9037c4-0f76-47dc-92ba-a4bac36b0407" />
+<img width="2488" height="1466" alt="image" src="https://github.com/user-attachments/assets/e57375ba-3768-4b2a-b846-d2bb19e036e6" />
+<img width="2894" height="1439" alt="image" src="https://github.com/user-attachments/assets/eb0acaa0-c735-4f40-b7c7-697c6d5c418d" />
+<img width="2886" height="1479" alt="image" src="https://github.com/user-attachments/assets/2192fee7-7277-460c-97ad-65495929e530" />
+<img width="2714" height="1365" alt="image" src="https://github.com/user-attachments/assets/353c71a7-3aee-492a-9cf3-0fabf68ab4e0" />
+<img width="2288" height="1518" alt="image" src="https://github.com/user-attachments/assets/229122ee-5dd5-4f5a-80f3-65773404522d" />
+<img width="2520" height="1380" alt="image" src="https://github.com/user-attachments/assets/6d3ac828-63f1-4fff-9cf7-4faf27f4da39" />
+<img width="3000" height="1455" alt="image" src="https://github.com/user-attachments/assets/5aa5008b-32ab-48dd-af76-7d63ffc762e9" />
+<img width="2641" height="1383" alt="image" src="https://github.com/user-attachments/assets/855563e1-01e4-4f3e-b24d-d37a73aca7ca" />
+<img width="2911" height="1478" alt="image" src="https://github.com/user-attachments/assets/555447cc-4a38-4bc7-bc46-e56c10588cfb" />
+<img width="2987" height="1518" alt="image" src="https://github.com/user-attachments/assets/d3d2bc53-5c3c-4eae-a15b-573dfa759787" />
+<img width="3000" height="1446" alt="image" src="https://github.com/user-attachments/assets/f70ac0ab-b919-4c55-a222-40a067bfb31b" />
+<img width="2952" height="1501" alt="image" src="https://github.com/user-attachments/assets/12ae9469-ee5d-4293-ba68-e7bff174a6d0" />
+<img width="3000" height="1481" alt="image" src="https://github.com/user-attachments/assets/b3baf9aa-30b1-42cb-bc3a-6dab043806c6" />
+<img width="2700" height="1518" alt="image" src="https://github.com/user-attachments/assets/e5261c76-b370-4a32-b6d4-8425cfeb03b8" />
+<img width="2930" height="1518" alt="image" src="https://github.com/user-attachments/assets/7c0e4d98-1755-4b0e-b24f-1f4f07d0269c" />
+<img width="2894" height="1518" alt="image" src="https://github.com/user-attachments/assets/de61a47f-8fc6-4e6f-aeb1-6fb0c5971a82" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
